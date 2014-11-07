@@ -1,0 +1,50 @@
+.site-header {
+	@include rem(padding, 20px 0);
+	background: $white;
+}
+
+.site-title {
+	@include rem(font-size, 32px);
+	text-align: center;
+	font-family: $font-sans;
+	font-weight: 700;
+	letter-spacing: -.01em;
+	line-height: 1;
+		a {
+			color: $lust;
+		}
+}
+
+.site-description {
+	@include rem(font-size, 14px);
+	@include rem(margin-bottom, 10px);
+	text-align: center;
+	color: #570070;
+}
+
+.latest-news {
+		background: darken(#1B0034, 10%);
+	}
+	.inner {
+		@include container($width);
+	}
+
+	.announce-text {
+		@include rem(padding, 3px 0);
+		background: #1B0034;
+		p {
+			@include rem(font-size, 10px);
+			color: $white;
+			text-align: center;
+			margin-bottom: 0;
+			letter-spacing: -1px;
+		}
+	}
+	.announce-the-stuff {
+		@include rem(padding, 3px 0);
+		li {
+			color: $white;
+			@include rem(font-size, 10px);
+			letter-spacing: -1px;
+		}
+	}

@@ -1,0 +1,17 @@
+.bx-slider {
+	position: relative;
+	white-space: nowrap;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+	vertical-align: top;
+	height: auto;
+	top: 50px;
+	z-index:-1;
+	.slider-image {
+		display: inline;
+		img {
+			vertical-align: top;
+		}
+	}
+}

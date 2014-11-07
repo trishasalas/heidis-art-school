@@ -1,0 +1,84 @@
+$width: em(980px);
+
+.top-bar-inner {
+	@include container($width);
+	.announce-text {
+		@include span(2 of 12);
+	}
+	.bx-wrapper {
+		@include span(5 of 12);
+	}
+}
+
+.header-inner {
+	@include container($width);
+}
+
+.announce-text {
+	@include span(3 of 12);
+}
+.announce-the-stuff {
+	@include span(9 of 12 last);
+}
+
+.nav-wrapper {
+	@include container ($width);
+}
+
+.content-inner {
+	@include container($width);
+}
+
+.post-type-archive-classes {
+	.site-content {
+		.content-area {
+			width: 100%;
+			float: none;
+			margin-left: 1.69492%;
+		}
+	}
+}
+.site-content {
+
+	.content-area.full-width {
+		width: 100%;
+	}
+
+	.content-area {
+		@include span(8 of 12);
+	}
+
+	.widget-area {
+		@include span(4 of 12 last);
+	}
+}
+
+// Middle Row on Home Page
+.middle-content {
+	@include container($width);
+
+	.classes,
+	.gallery{
+		@include span(4 of 12);
+	}
+
+	.blog {
+		@include span(4 of 12 last);
+	}
+}
+
+.home-bottom {
+	.bottom-content {
+		@include container($width);
+		.youtube {
+			@include span(7 of 12);
+		}
+		.location {
+			@include span(5 of 12 last);
+		}
+	}
+}
+
+.footer-inner {
+	@include container($width);
+}

@@ -1,0 +1,43 @@
+.home-middle {
+	@include rem(padding, 20px 0);
+}
+
+.home-bottom {
+	@include rem(padding, 20px 0);
+	background: -webkit-linear-gradient(180deg, #ffb347 10%, #ffcc33 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(180deg, #ffb347 10%, #ffcc33 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(180deg, #ffb347 10%, #ffcc33 90%); /* IE10 */
+	background:      -o-linear-gradient(180deg, #ffb347 10%, #ffcc33 90%); /* Opera 11.10+ */
+	background:         linear-gradient(180deg, #ffb347 10%, #ffcc33 90%); /* W3C */
+	//overflow: hidden;
+	overflow: hidden;
+}
+
+.kid-pics {
+	@include rem(margin-bottom, 10px);
+	-moz-box-shadow: 0 0 5px #ccc;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	box-shadow: 0 0 5px #ccc;
+}
+
+.classes {
+	h1.widget-title:before {
+		font-family: "FontAwesome";
+		content: "\f1fc";
+		color: $lust;
+	}
+}
+
+.gallery {
+	h1.widget-title:before {
+		font-family: "FontAwesome";
+		content: "\f030";
+	}
+}
+
+.blog {
+	h1.widget-title:before {
+		font-family: "FontAwesome";
+		content: "\f040";
+	}
+}
